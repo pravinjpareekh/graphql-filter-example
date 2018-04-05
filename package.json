@@ -1,0 +1,29 @@
+{
+  "name": "graphql-filter-example",
+  "version": "1.0.0",
+  "description": "Example to filter graphql schema",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "remote-schema-example": "nodemon src/remoteSchema.js",
+    "local-schema-example": "nodemon src/localSchema.js"
+    },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pravinjpareekh/graphql-filter-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pravinjpareekh/graphql-filter-example/issues"
+  },
+  "homepage": "https://github.com/pravinjpareekh/graphql-filter-example#readme",
+  "dependencies": {
+    "node-fetch": "^2.1.2",
+    "apollo-link-http": "^1.3.0",
+    "graphql-tools": "^2.11.0",
+    "graphql-transform-schema": "git://github.com/pravinjpareekh/graphql-transform-schema.git",
+    "graphql-yoga": "^0.2.1"
+  }
+}
